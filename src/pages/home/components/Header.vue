@@ -29,9 +29,9 @@ export default {
 
 <style lang="stylus" scoped>
 .header
- height: 4.4 rem
+ height: 3.5 rem
  .m-header
-     height 4.4rem
+     height 3.5rem
      background #F0FFFF
  .header-fiexd
      position fiexd
@@ -48,28 +48,30 @@ export default {
       background-size 7.3rem 2.4rem
      .c-header
       position absolute
-      top: 1rem
+      top: 0.5rem
       left 1.2rem
      .mush
       padding-inline-start 10 px
       height 100%
-      font-size 1.4rem
+      font-size 1.2rem
       float right
+      padding-right :1rem
      .mush>li
       display inline-block
       width 3rem
-      height 4.4rem
+      height 3.5rem
       text-align :center
       float left
       .icon
+        position: absolute
         display inline-block
         width: 1em;
         height: 1em;
-        line-height 4.4rem
+        line-height 3.5rem
      .twoinfo
         float right
-        height 4.4rem
-        line-height 4.4rem
+        height 3.5rem
+        line-height 3.5rem
         margin-right .5rem
         .line-text
          display inline-block
