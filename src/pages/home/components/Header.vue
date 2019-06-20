@@ -34,7 +34,7 @@ export default {
      height 3.5rem
      background #F0FFFF
  .header-fiexd
-     position fiexd
+     position fixed
      top 0
      left 0
      right 0
