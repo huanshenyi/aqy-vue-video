@@ -1,4 +1,5 @@
 <template>
+  <div class="test">
     <div class="lunbo">
         <swiper :options="swiperOption">
             <swiper-slide v-for="( page,index) in pages" :key="index">
@@ -15,6 +16,7 @@
             </swiper-slide>
         </swiper>
     </div>
+  </div>
 </template>
 
 <script>
