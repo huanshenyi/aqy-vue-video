@@ -1,14 +1,14 @@
 <template>
 <div class="icons">
-<swiper :options="swiperOption" v-if="list.length">
-<swiper-slide v-for="(list,index) of pages" :key="index">
-<div class="icons1" v-for="item of list" :key="item.id">
-<div class="icons-img">
-<img class="icons-imgsole" :src="item.imgUrl">
-<p class="icon-text">{{item.desc}}</p>
-</div>
-</div>
-</swiper-slide>
+ <swiper :options="swiperOption" v-if="list.length">
+    <swiper-slide v-for="(list,index) of pages" :key="index">
+       <div class="icons1" v-for="item of list" :key="item.id">
+           <div class="icons-img">
+            <img class="icons-imgsole" :src="item.imgUrl">
+            <p class="icon-text">{{item.desc}}</p>
+           </div>
+       </div>
+    </swiper-slide>
 </swiper>
 </div>
 </template>
