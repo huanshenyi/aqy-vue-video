@@ -24,7 +24,9 @@ export default {
   name: 'HomeSwiper',
   data () {
     return {
-      swiperOption: {},
+      swiperOption: {
+        autoplay: 1500
+      },
       textList: [{
         id: '001',
         Image: 'https://img.capitalwatch.com/201902/13/5c64d088d45b0.jpg',

@@ -6,6 +6,7 @@
     <home-swiper></home-swiper>
     <home-tubiao></home-tubiao>
     <home-list></home-list>
+    <home-infomation></home-infomation>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import HomeSearch from './components/Search'
 import HomeSwiper from './components/Swiper'
 import HomeTubiao from './components/Tubiao'
 import HomeList from './components/List'
+import HomeInfomation from './components/Infomation'
 
 export default {
   name: 'Home',
@@ -25,7 +27,8 @@ export default {
     HomeSearch,
     HomeSwiper,
     HomeTubiao,
-    HomeList
+    HomeList,
+    HomeInfomation
   }
 }
 </script>

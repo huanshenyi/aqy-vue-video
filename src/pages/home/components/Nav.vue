@@ -21,7 +21,7 @@ export default {
   name: 'HomeNav',
   data () {
     return {
-      swiperSlides: ['アニメ', '格闘', 'スポーツ', 'python', '成人', 'ドラマ', 'ニュース', '映画', 'ペット', 'キャンプ']
+      swiperSlides: ['描き', 'キャンプ', 'スポーツ', 'python', '成人', 'ドラマ', 'ニュース', '映画', 'ペット', 'キャンプ']
     }
   },
   mounted () {
