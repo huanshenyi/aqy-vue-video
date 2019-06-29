@@ -14,23 +14,28 @@
         <div class="box-bottom">
           <div class="m-text">
             <svg class="icon">
-              <use xlink:href="#icon-yousanjiao"></use>
+              <use xlink:href="#icon-bofang"></use>
             </svg>
-            <span class="text-child">8歳現役小学生</span>
+            <span class="text-child">8歳現役小学生アイドル</span>
           </div>
           <div class="m-text">
             <svg class="icon">
-              <use xlink:href="#icon-yousanjiao"></use>
+              <use xlink:href="#icon-bofang"></use>
             </svg>
-            <span class="text-child">8歳現役小学生</span>
+            <span class="text-child">8歳現役小学生アイドル</span>
           </div>
         </div>
       </div>
       <div class="pic-content">
-            <a class="a-content">
-              <div class="mic-img"></div>
-              <div class="mic-text">ハリネズミ可愛い</div>
+            <a class="a-content" v-for="item in infolist" :key="item.id">
+              <div class="mic-img" :style="{backgroundImage:'url('+item.Image+')'}"></div>
+              <div class="mic-text">{{item.text}}</div>
             </a>
+      </div>
+      <div style="clear: both"></div>
+      <div class="end">
+        <a class="a_left"><i class="iconfont fontfamily">&#xe627;</i>もっと</a>
+        <a class="a_left"><i class="iconfont fontfamily">&#xe61c;</i>更新</a>
       </div>
     </div>
 </template>
@@ -41,7 +46,13 @@ export default {
   data () {
     return {
       infolist: [{
-
+        id: '001',
+        Image: 'https://s3-ap-northeast-1.amazonaws.com/petpedia/upload_by_admin/hari-01_800.jpg',
+        text: 'ハリネズミ可愛い'
+      }, {
+        id: '002',
+        Image: 'https://s3-ap-northeast-1.amazonaws.com/petpedia/upload_by_admin/hari-01_800.jpg',
+        text: 'ハリネズミ可愛い'
       }]
     }
   }
@@ -86,6 +97,7 @@ export default {
   display inline-block
   width 49.5%
   height auto
+  float left
   .mic-img
    width 100%
    padding-bottom 50%
@@ -98,5 +110,15 @@ export default {
    color #333
    font-size 1.1rem
    line-height 2rem
-
+.end
+ height 5rem
+ .a_left
+  display inline-block
+  width 49%
+  color :#0bbe06
+  text-align center
+  line-height 1.5rem
+  font-size 1.1rem
+  .fontfamily
+   margin-left .5rem
 </style>

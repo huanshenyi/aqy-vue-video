@@ -24,6 +24,7 @@ export default {
 
 <style scoped lang="stylus">
   .setop
+    background #ffffff
     height:2.9rem
   .only_search
     height 2.9rem

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home">
     <home-header></home-header>
     <home-nav></home-nav>
     <home-search></home-search>
@@ -7,6 +7,7 @@
     <home-tubiao></home-tubiao>
     <home-list></home-list>
     <home-infomation></home-infomation>
+    <home-footer></home-footer>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import HomeSwiper from './components/Swiper'
 import HomeTubiao from './components/Tubiao'
 import HomeList from './components/List'
 import HomeInfomation from './components/Infomation'
+import HomeFooter from './components/Footer'
 
 export default {
   name: 'Home',
@@ -28,11 +30,13 @@ export default {
     HomeSwiper,
     HomeTubiao,
     HomeList,
-    HomeInfomation
+    HomeInfomation,
+    HomeFooter
   }
 }
 </script>
 
-<style scoped>
-
+<style scoped lang="stylus">
+.home
+  background #ffffff
 </style>

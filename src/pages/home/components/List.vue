@@ -1,6 +1,6 @@
 <template>
     <div class="pic-content">
-      <a class="a-content" v-for="item in Listcontent" :key="item.id">
+      <div class="a-content" v-for="item in Listcontent" :key="item.id">
         <div class="mic-img" :style="{backgroundImage:'url('+item.Image+')'}">
           <span class="mix-text">{{item.text}}</span>
         </div>
@@ -8,7 +8,7 @@
           <div class="pic-p">{{item.name}}</div>
           <div class="mic-p">{{item.conent}}</div>
         </div>
-      </a>
+      </div>
     </div>
 </template>
 
@@ -61,6 +61,7 @@ export default {
 
 <style scoped lang="stylus">
   .pic-content
+   background #ffffff
    margin-left :-.2rem
    margin-top 0.5rem
    .a-content
@@ -97,6 +98,7 @@ export default {
        height 1.5rem
        line-height 1.5rem
        margin-bottom 0.5rem
+       padding-top 0.5rem
     .mic-img:after
      position absolute
      left 0

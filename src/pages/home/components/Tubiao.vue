@@ -65,6 +65,7 @@ export default{
 
 <style lang="stylus" scoped>
 .icons
+ background #ffffff
  margin-top:.5rem
  .icons1
   position:relative

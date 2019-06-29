@@ -66,6 +66,7 @@ export default {
 
 <style scoped lang="stylus">
   .lunbo
+   background #ffffff
    margin-top .5rem
    .swiperNBA
     width 100%
