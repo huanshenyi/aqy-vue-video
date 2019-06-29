@@ -26,12 +26,25 @@
           </div>
         </div>
       </div>
+      <div class="pic-content">
+            <a class="a-content">
+              <div class="mic-img"></div>
+              <div class="mic-text">ハリネズミ可愛い</div>
+            </a>
+      </div>
     </div>
 </template>
 
 <script>
 export default {
-  name: 'HomeInfomation'
+  name: 'HomeInfomation',
+  data () {
+    return {
+      infolist: [{
+
+      }]
+    }
+  }
 }
 </script>
 
@@ -67,4 +80,23 @@ export default {
     .text-child
      color #333
      font-size 1.1rem
+.pic-content
+ margin-left -.2rem
+ .a-content
+  display inline-block
+  width 49.5%
+  height auto
+  .mic-img
+   width 100%
+   padding-bottom 50%
+   background-image :url("https://s3-ap-northeast-1.amazonaws.com/petpedia/upload_by_admin/hari-01_800.jpg")
+   background-size cover
+   position relative
+  .mic-text
+   padding-top 0.5rem
+   padding-left 1rem
+   color #333
+   font-size 1.1rem
+   line-height 2rem
+
 </style>
