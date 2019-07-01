@@ -7,12 +7,14 @@
           <div class="swiper-slide" v-for="(swiperSlide,index) in swiperSlides" :key="index">{{swiperSlide}}</div>
         </div>
       </div>
-      <div class="indexAdd">
-        <img src="./img/nav-linebg.png">
-        <svg class="icon" aria-hidden="true">
-          <use xlink:href="#icon-luntanzixun"></use>
-        </svg>
-      </div>
+      <router-link to="/type">
+        <div class="indexAdd">
+          <img src="./img/nav-linebg.png">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-luntanzixun"></use>
+          </svg>
+        </div>
+      </router-link>
     </div>
 </template>
 

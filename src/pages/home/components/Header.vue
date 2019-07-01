@@ -1,7 +1,9 @@
 <template>
     <div class="header">
       <div class="m-header header-fiexd">
-        <img class="a-header b-header c-header" src="../../../../static/video-vue.png"/>
+        <router-link to="/">
+          <img class="a-header b-header c-header" src="../../../../static/video-vue.png"/>
+        </router-link>
         <div class="twoinfo">
           <a class="line-text">Appゲット</a>
         </div>
