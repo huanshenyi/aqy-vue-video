@@ -20,7 +20,7 @@ import HomeTubiao from './components/Tubiao'
 import HomeList from './components/List'
 import HomeInfomation from './components/Infomation'
 import HomeFooter from './components/Footer'
-
+import axios from 'axios'
 export default {
   name: 'Home',
   components: {
@@ -32,6 +32,16 @@ export default {
     HomeList,
     HomeInfomation,
     HomeFooter
+  },
+  mounted () {
+    this.getDjangoData()
+  },
+  methods: {
+    getDjangoData: function () {
+      axios.get('http://127.0.0.1:8000/goods/').then((response) => {
+        console.log(response.data)
+      })
+    }
   }
 }
 </script>
