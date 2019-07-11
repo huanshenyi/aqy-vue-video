@@ -12,8 +12,10 @@ import './assets/mui/css/mui.min.css'
 import './assets/mui/css/icons-extra.css'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
+import Video from 'video.js'
+import 'video.js/dist/video-js.min.css'
 
-
+Vue.prototype.$video = Video
 Vue.config.productionTip = false
 fastclick.attach(document.body)
 Vue.use(VueAwesomeSwiper)

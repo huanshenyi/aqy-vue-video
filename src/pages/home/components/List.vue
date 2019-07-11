@@ -1,5 +1,6 @@
 <template>
     <div class="pic-content">
+      <router-link to="/shipin" style="color: black">
       <div class="a-content" v-for="item in Listcontent" :key="item.id">
         <div class="mic-img" :style="{backgroundImage:'url('+item.Image+')'}">
           <span class="mix-text">{{item.text}}</span>
@@ -9,6 +10,7 @@
           <div class="mic-p">{{item.conent}}</div>
         </div>
       </div>
+      </router-link>
     </div>
 </template>
 
