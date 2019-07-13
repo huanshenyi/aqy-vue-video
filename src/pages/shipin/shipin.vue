@@ -1,5 +1,5 @@
 <template>
- <div>
+ <div class="home">
    <home-header></home-header>
    <fa-slo></fa-slo>
    <home-footer></home-footer>
@@ -20,6 +20,7 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style scoped lang="stylus">
+.home
+  background #ffffff
 </style>

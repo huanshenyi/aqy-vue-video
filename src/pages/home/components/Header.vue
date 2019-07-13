@@ -18,6 +18,11 @@
               <use xlink:href="#icon-_shizhong"></use>
             </svg>
           </li>
+          <li>
+            <svg class="icon">
+              <use xlink:href="#icon-yonghuqun"></use>
+            </svg>
+          </li>
         </ul>
       </div>
     </div>
@@ -60,15 +65,15 @@ export default {
       padding-right :1rem
      .mush>li
       display inline-block
-      width 3rem
+      width 2rem
       height 3.5rem
       text-align :center
       float left
       .icon
         position: absolute
         display inline-block
-        width: 1em;
-        height: 1em;
+        width: 1.2em;
+        height: 1.2em;
         line-height 3.5rem
      .twoinfo
         float right
