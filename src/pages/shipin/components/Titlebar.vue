@@ -32,7 +32,7 @@ export default {
   padding-left 0
   padding-right 0
   border-bottom 1px solid #f0f0f0
-  padding-bottom 1rem
+  padding-bottom .5rem
   .m-video-info
    padding 0 .12rem .15rem .12rem
    .c-title

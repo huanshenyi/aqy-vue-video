@@ -97,7 +97,7 @@ export default {
       overflow: hidden;
       margin-right 0.1rem
 .pinlun
-  height 4rem
+  height 3.5rem
   margin-top 0.5rem
   .pinlun_content
    position relative
