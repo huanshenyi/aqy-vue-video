@@ -4,6 +4,7 @@
    <fa-slo></fa-slo>
    <title-bar></title-bar>
    <mu-lu></mu-lu>
+   <zhou-bian></zhou-bian>
    <home-footer></home-footer>
  </div>
 </template>
@@ -13,6 +14,7 @@ import HomeHeader from '../home/components/Header'
 import FaSlo from './components/faslo'
 import TitleBar from './components/Titlebar'
 import MuLu from './components/Mulu'
+import ZhouBian from './components/Zhoubian'
 import HomeFooter from '../home/components/Footer'
 export default {
   name: 'shipin',
@@ -21,7 +23,8 @@ export default {
     FaSlo,
     HomeFooter,
     TitleBar,
-    MuLu
+    MuLu,
+    ZhouBian
   }
 }
 </script>
