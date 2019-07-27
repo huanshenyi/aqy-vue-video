@@ -5,7 +5,8 @@
    <title-bar></title-bar>
    <mu-lu></mu-lu>
    <zhou-bian></zhou-bian>
-   <home-footer></home-footer>
+   <star></star>
+<!--   <home-footer></home-footer>-->
  </div>
 </template>
 
@@ -15,16 +16,18 @@ import FaSlo from './components/faslo'
 import TitleBar from './components/Titlebar'
 import MuLu from './components/Mulu'
 import ZhouBian from './components/Zhoubian'
-import HomeFooter from '../home/components/Footer'
+// import HomeFooter from '../home/components/Footer'
+import Star from './components/Star'
 export default {
   name: 'shipin',
   components: {
     HomeHeader,
     FaSlo,
-    HomeFooter,
+    // HomeFooter,
     TitleBar,
     MuLu,
-    ZhouBian
+    ZhouBian,
+    Star
   }
 }
 </script>
