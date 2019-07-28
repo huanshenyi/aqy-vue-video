@@ -6,6 +6,7 @@
    <mu-lu></mu-lu>
    <zhou-bian></zhou-bian>
    <star></star>
+   <comment></comment>
 <!--   <home-footer></home-footer>-->
  </div>
 </template>
@@ -16,6 +17,7 @@ import FaSlo from './components/faslo'
 import TitleBar from './components/Titlebar'
 import MuLu from './components/Mulu'
 import ZhouBian from './components/Zhoubian'
+import Comment from './components/Comment'
 // import HomeFooter from '../home/components/Footer'
 import Star from './components/Star'
 export default {
@@ -27,7 +29,8 @@ export default {
     TitleBar,
     MuLu,
     ZhouBian,
-    Star
+    Star,
+    Comment
   }
 }
 </script>

@@ -93,7 +93,6 @@ export default {
   .icons
    margin-top 1.5rem
    border-bottom 1px solid #f0f0f0
-   padding-bottom 1.5rem
    .star-big
     display inline-block
     width 25%
